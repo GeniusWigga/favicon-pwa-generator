@@ -20,3 +20,11 @@ For more information visit [https://realfavicongenerator.net](https://realfavico
 
 ## Generate Splashscreen
 
+To generate splashscreens from an image, first specify the input and output path in the file `pwa.mjs` of the function `pwaAssetGenerator.generateImages('path-to-image', 'output-path')`.
+
+Then run the script
+```bash
+$ npm run pwa
+```
+
+For more information visit [https://github.com/onderceylan/pwa-asset-generator](https://github.com/onderceylan/pwa-asset-generator).

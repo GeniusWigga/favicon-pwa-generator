@@ -4,13 +4,14 @@
   "description": "favicon generator, pwa asset generator",
   "main": "index.js",
   "scripts": {
-    "pwa": "npx pwa-asset-generator ",
+    "pwa": "node pwa.mjs",
     "favicon": "real-favicon generate faviconDescription.json faviconData.json output_favicons",
     "favicon:inject": "real-favicon inject faviconData.json output_favicons index.html"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cli-real-favicon": "^0.0.8"
+    "cli-real-favicon": "^0.0.8",
+    "pwa-asset-generator": "^4.1.1"
   }
 }
