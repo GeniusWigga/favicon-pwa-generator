@@ -1,11 +1,12 @@
 {
-  "name": "favicon-generator",
+  "name": "favicon-pwa-assets-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "favicon generator, pwa asset generator",
   "main": "index.js",
   "scripts": {
-    "generate:favicon": "real-favicon generate faviconDescription.json faviconData.json output",
-    "generate:inject": "real-favicon inject faviconData.json output index.html"
+    "pwa": "npx pwa-asset-generator ",
+    "favicon": "real-favicon generate faviconDescription.json faviconData.json output_favicons",
+    "favicon:inject": "real-favicon inject faviconData.json output_favicons index.html"
   },
   "author": "",
   "license": "ISC",
