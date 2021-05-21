@@ -1,5 +1,5 @@
 {
-  "masterPicture": "/icons/favicon-image",
+  "masterPicture": "./icons/21f.png",
   "iconsPath": "/",
   "design": {
     "ios": {
@@ -16,7 +16,7 @@
     },
     "windows": {
       "pictureAspect": "noChange",
-      "backgroundColor": "#da532c",
+      "backgroundColor": "#ffffff",
       "onConflict": "override",
       "assets": {
         "windows80Ie10Tile": false,

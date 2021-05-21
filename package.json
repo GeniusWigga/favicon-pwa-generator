@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "generate:favicon": "real-favicon generate faviconDescription.json faviconData.json outputDir",
-    "generate:inject": "real-favicon inject faviconData.json outputDir index.html"
+    "generate:favicon": "real-favicon generate faviconDescription.json faviconData.json output",
+    "generate:inject": "real-favicon inject faviconData.json output index.html"
   },
   "author": "",
   "license": "ISC",
