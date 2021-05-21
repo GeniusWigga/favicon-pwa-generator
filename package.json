@@ -1,0 +1,15 @@
+{
+  "name": "favicon-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate:favicon": "real-favicon generate faviconDescription.json faviconData.json outputDir",
+    "generate:inject": "real-favicon inject faviconData.json outputDir index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-real-favicon": "^0.0.8"
+  }
+}
