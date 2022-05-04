@@ -2,11 +2,11 @@ import pwaAssetGenerator from "pwa-asset-generator";
 
 (async () => {
   await pwaAssetGenerator.generateImages(
-    "./icons/df21.jpeg",
+    "./icons/df21.png",
     "./output_splashscreen",
     {
       scrape: false,
-      background: "#CC8F63",
+      background: "transparent",
       splashOnly: true,
       portraitOnly: true
     }
